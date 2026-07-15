@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+
+    <servlet>
+        <servlet-name>Add</servlet-name>
+        <servlet-class>com.vr.serverletapp1.Add</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Add</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>redirect</servlet-name>
+        <servlet-class>com.vr.serverletapp1.redirect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>redirect</servlet-name>
+        <url-pattern>/redirect</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>printname</servlet-name>
+        <servlet-class>com.vr.serverletapp1.PrintName</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>printname</servlet-name>
+        <url-pattern>/PrintName</url-pattern>
+    </servlet-mapping>
+    
+
+    
+</web-app>
+
